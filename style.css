@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,#ffc169, #7f4200);
+    font-family: "poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.watch-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+}
+
+#displayTime {
+    font-size: 6rem;
+    text-align: center;
+}
+
+.stopwatch{
+    border: 5px double black;
+    padding: 1rem;
+    border-radius: 1rem;
+    min-width: 330px;
+}
+
+#milisecond{
+    position: absolute;
+    top: 15px;
+    right: -2px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.start-btn{
+    height: 20vh;
+    cursor: pointer;
+}
+.stop-btn, .reset-btn{
+    height: 14vh;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 490px){
+
+    .start-btn{
+        height: 10vh;
+    }
+    .stop-btn, .reset-btn{
+        height: 8vh;
+    }
+    #displayTime{
+        font-size: 4rem;
+    }
+
+    #milisecond{
+        position: absolute;
+        top: 5px;
+        right: -10px;
+    }
+}

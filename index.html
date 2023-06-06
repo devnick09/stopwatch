@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    
+    <!-- heading of the page -->
+    <center>
+        <h1>The StopWatch</h1>
+    </center>
+
+    <div class="stopwatch">
+        <!-- timer coontainer -->
+        <div class="watch-container">
+            <p id="displayTime">00:00:00</p>
+            <span id="milisecond" >00</span>
+        </div>
+
+        <!-- Stopwatch buttons -->
+        <div class="buttons">
+            <img class="stop-btn" src="images/stop.png" alt="stop-btn" title="Stop" onclick="watchStop()">
+            <img class="start-btn" src="images/start.png" alt="start-btn" title="Start" onclick="watchStart()">
+            <img class="reset-btn" src="images/reset.png" alt="reset-btn" title="Reset" onclick="watchReset()">
+        </div>
+    </div>
+
+    <!-- Added main function file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
