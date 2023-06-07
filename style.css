@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to right,#ffc169, #7f4200);
+    background: linear-gradient(to right,#52dfff, #ff7373);
     font-family: "poppins", sans-serif;
     display: flex;
     flex-direction: column;
