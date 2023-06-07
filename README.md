@@ -2,8 +2,10 @@
 
 This is a stopwatch project made using HTML, CSS and JavaScript. It has three buttons start, stop and reset. The start button starts the timer from the current time on the stopwatch. The stop button stops the timer. The reset button clears the current stopwatch time and makes it 0.
 
+## PC View
 ![image](https://github.com/devnick09/stopwatch/assets/82429531/7da7ce1e-4607-481b-b505-b902d9f33800)
 
+## Mobile View
 ![image](https://github.com/devnick09/stopwatch/assets/82429531/f00894b9-cb07-4108-bc1e-b5078165ce7b)
 
 ## Installation
